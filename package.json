@@ -1,0 +1,22 @@
+{
+  "name": "ipc",
+  "version": "1.0.0",
+  "description": "Inter process communication",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "cluster": "cd cluster && node ./main.js",
+    "child": "cd process && node ./main.js"
+  },
+  "keywords": [
+    "ipc",
+    "node.js",
+    "cluster",
+    "child_process",
+    "unix_domain_sockets"
+  ],
+  "author": "Vladislav Trofimenko",
+  "license": "ISC"
+}
