@@ -8,7 +8,8 @@
   "scripts": {
     "cluster": "cd cluster && node ./main.js",
     "child": "cd process && node ./main.js",
-    "tcp": "cd tcp && node ./main.js"
+    "tcp-server": "cd tcp && node ./main.js",
+    "tcp-client": "cd tcp && node ./client.js"
   },
   "keywords": [
     "ipc",
